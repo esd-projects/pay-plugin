@@ -1,0 +1,39 @@
+{
+  "require": {
+    "esd/esd-core": "~0.1",
+    "ext-json": "*",
+    "esd/aop-plugin": "~0.1",
+    "esd/saber-plugin": "~0.1"
+  },
+  "require-dev": {
+    "esd/esd-co-server": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/",
+      "ESD\\Plugins\\Pay\\examples\\": "examples/",
+      "ESD\\Plugins\\Pay\\exampleClass\\": "exampleClass/"
+    }
+  },
+  "authors": [
+    {
+      "name": "lphkxd",
+      "email": "4213509@qq.com",
+      "homepage": "https://github.com/lphkxd"
+    }
+  ],
+  "name": "esd/pay-plugin",
+  "type": "library",
+  "keywords": [
+    "server",
+    "swoole"
+  ],
+  "description": "pay-plugin",
+  "license": "MIT",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+reload:
+  enable: false
+
+aop:
+  include_paths:
+    - ${ROOT_DIR}/examples/src
+
+scan:
+  include_paths:
+    - ${ROOT_DIR}/examples/src
+
+redis:
+  default:
+    host: '10.0.0.23'
+pay:
+  wechat_config:
+    app_id: wxd7d88e3092b10111
+    mch_id: 1337843111
+    key: 11111111111168626666666666666666
+
+  alipay_config:
+    app_id: 11111
+    public_key: ''
+    private_key: ''
+
